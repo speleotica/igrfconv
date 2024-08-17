@@ -1,0 +1,45 @@
+{
+  "name": "@speleotica/igrfconv",
+  "description": "converts IGRF coefficients into a format walls uses",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/speleotica/igrfconv.git"
+  },
+  "homepage": "https://github.com/speleotica/igrfconv",
+  "bugs": {
+    "url": "https://github.com/speleotica/igrfconv/issues"
+  },
+  "author": "Andy Edwards",
+  "license": "MIT",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "@jcoreio/eslint-plugin-implicit-dependencies": "^1.1.1",
+    "@jcoreio/toolchain": "4.6.1",
+    "@jcoreio/toolchain-esnext": "^4.6.1",
+    "@jcoreio/toolchain-mocha": "^4.6.1",
+    "@jcoreio/toolchain-typescript": "^4.6.1",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.0"
+  },
+  "version": "0.0.0-development",
+  "sideEffects": false,
+  "scripts": {
+    "tc": "toolchain",
+    "toolchain": "toolchain",
+    "test": "toolchain test",
+    "prepublishOnly": "echo This package is meant to be published by semantic-release from the dist build directory. && exit 1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@8.11.0",
+  "dependencies": {
+    "@babel/runtime": "^7.18.6"
+  }
+}
