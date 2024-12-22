@@ -20,6 +20,7 @@
     "@jcoreio/toolchain-esnext": "^4.6.1",
     "@jcoreio/toolchain-mocha": "^4.6.1",
     "@jcoreio/toolchain-typescript": "^4.6.1",
+    "@types/node": "^22.4.0",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^8.56.0",
@@ -40,6 +41,7 @@
   },
   "packageManager": "pnpm@8.11.0",
   "dependencies": {
-    "@babel/runtime": "^7.18.6"
+    "@babel/runtime": "^7.18.6",
+    "csv-parse": "^5.5.6"
   }
 }
